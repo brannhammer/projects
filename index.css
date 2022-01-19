@@ -1,0 +1,51 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: slategray;
+}
+.header{
+    height: 70px;
+    background-color: darkslategray;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    padding:16px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex:1;
+}
+.sidebar{
+    width:150px;
+    background-color: rgb(104, 98, 98);
+    flex-shrink: 0;
+    padding: 16px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    
+}
+.card{
+    padding:16px;
+    margin: 16px;
+    width:300px;
+    boarder: 1px solid white;
+    box-shadow: 2px 4px 16px black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
